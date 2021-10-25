@@ -1,6 +1,4 @@
 #include "CTest.hpp"
-
-#include <iostream>
 #include <string>
 
 const char * getMessage(const char * message)
