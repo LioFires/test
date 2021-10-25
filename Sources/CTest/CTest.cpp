@@ -9,7 +9,8 @@ const char * getMessage(const char * message)
     return new_string.c_str();
 }
 
-const auto lamb = [](const int number) {
+const auto lamb = [](const int number) 
+{
     static const std::string str {std::to_string(number)};
     return str.c_str();
 };
@@ -17,11 +18,6 @@ const auto lamb = [](const int number) {
 const char * getLambda()
 {
     callLambda(lamb, 45);
-}
-
-int test(int num)
-{
-    return num;
 }
 
 int add(const int value_1 = 0, const int value_2 = 0)
