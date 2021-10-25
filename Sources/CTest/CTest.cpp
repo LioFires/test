@@ -25,7 +25,3 @@ int add(const int value_1 = 0, const int value_2 = 0)
     const int value = { value_1 + value_2 };
     return value;
 }
-
-
-
-
