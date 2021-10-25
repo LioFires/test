@@ -8,7 +8,7 @@
     const char * getMessage(const char * message);
     int add(int value_1, int value_2);
     const char * getLambda();
-
+// I really don't know any c ;-;
 #define callLambda(type, integer) \
 {                             \
     return type(integer);      \
