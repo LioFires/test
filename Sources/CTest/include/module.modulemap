@@ -1,0 +1,4 @@
+module CTest [system][extern_c] {
+    umbrella header "../CTest.hpp"
+    export *
+}

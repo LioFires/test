@@ -1,0 +1,7 @@
+# Project exclude paths
+/.build/x86_64-unknown-linux-gnu/
+/.build/debug.yaml
+/.build/workspace-state.json
+
+# Swift Package Manager Build Directory
+/.build/
